@@ -20,6 +20,12 @@ export default function Home() {
   const selectedChannel = channels.find(c => c.id === selectedChannelId);
   const streamUrl = selectedChannelId ? getStreamUrl(selectedChannelId) : null;
 
+  useEffect(() => {
+    if (streamUrl) {
+      console.log("Stream URL:", streamUrl);
+    }
+  }, [streamUrl]);
+
   return (
     <div className="flex h-screen bg-[#141414] text-white overflow-hidden">
 
