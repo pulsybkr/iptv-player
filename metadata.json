@@ -1,5 +1,0 @@
-{
-  "name": "IPTV Vision",
-  "description": "Une application moderne pour regarder les chaînes TV du monde entier. Basée sur l'API IPTV-org, elle offre un filtrage avancé par pays, langue et catégorie avec une interface sombre et épurée.",
-  "requestFramePermissions": []
-}
